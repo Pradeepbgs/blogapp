@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import {login} from '../redux/authSlice'
 import { useDispatch } from 'react-redux'
 import {Button, Input, Logo} from '../components/index'
-import {set, useForm} from 'react-hook-form'
+import { useForm} from 'react-hook-form'
 import Rolling from '../assets/Rolling-1s-200px.svg'
 
 function SignUp() {
